@@ -95,5 +95,4 @@ public class MentorServiceImpl implements MentorService {
             throw new SkillMentorException("Failed to delete mentor", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
 }
